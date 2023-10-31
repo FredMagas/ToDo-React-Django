@@ -62,7 +62,7 @@ const Table = ({todos, setTodos, isLoading}) => {
                 </tr>
             </thead>
             <tbody>
-                {isLoading ? <div><span className="loading loading-spinner text-accent"></span></div> :
+                {isLoading ? <div className='m-8'><span className="loading loading-spinner text-accent"></span></div> :
                 <>
                     {todos.map( (todoItem, index) => {
                         return (
