@@ -16,7 +16,7 @@ function App() {
   
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:8000/api/todo/")
+      const response = await axios.get("https://api-todo-react-app-4a664ae2c098.herokuapp.com/api/todo/")
       setTodos(response.data)
       setisLoading(false)
     } catch (error) {
