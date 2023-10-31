@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['https://api-todo-react-app-4a664ae2c098.herokuapp.com/']
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "http://localhost:5173",
+    "https://api-todo-react-app-4a664ae2c098.herokuapp.com/",
 ]
 
 # Application definition
