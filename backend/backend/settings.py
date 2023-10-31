@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-begemyb3xjkx7)p)fz^-=a01ogx_1d&r@&-#n@i-*(28c%7v-e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://api-todo-react-app-4a664ae2c098.herokuapp.com/']
 
