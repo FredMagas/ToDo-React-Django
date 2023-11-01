@@ -3,6 +3,7 @@ import './App.css'
 import axios from 'axios'
 import TodoForm from './components/TodoForm'
 import Table from './components/Table'
+import circleCheckRegular from './assets/circle-check-regular.svg';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
   return (
   <div className='w-full min-h-screen overflow-auto bg-indigo-100 text-black flex flex-col items-center'>
     <div className='flex flex-row content-center justify-center items-center'>
-      <img className='w-8 mr-4' src="./src/assets/circle-check-regular.svg" alt="" />
+      <img className='w-8 mr-4' src={circleCheckRegular} alt="" />
       <nav className='pt-8'>
         <h1 className='text-5xl pb-12'>ToDo List</h1>
       </nav>
