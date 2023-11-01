@@ -17,7 +17,7 @@ const TodoForm = ({setTodos, fetchData}) => {
 
   const postTodo = async () => {
     try {
-        await axios.post('https://api-todo-react-app-4a664ae2c098.herokuapp.com/api/todo/', newTodo)
+        await axios.post('https://api-todo-react-django-85f51829d707.herokuapp.com/api/todo/', newTodo)
         setNewTodo( {'body': ''})
         fetchData()
     } catch (error) {

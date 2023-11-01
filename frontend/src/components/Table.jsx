@@ -10,7 +10,7 @@ const Table = ({todos, setTodos, isLoading}) => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`https://api-todo-react-app-4a664ae2c098.herokuapp.com/api/todo/${id}/`)
+            await axios.delete(`https://api-todo-react-django-85f51829d707.herokuapp.com/api/todo/${id}/`)
             const newList = todos.filter(todo => todo.id !== id)
             setTodos(newList)
         } catch (error) {
@@ -20,7 +20,7 @@ const Table = ({todos, setTodos, isLoading}) => {
 
     const handleEdit = async (id, value) => {
         try {
-            const response = await axios.patch(`https://api-todo-react-app-4a664ae2c098.herokuapp.com/api/todo/${id}/`, value)
+            const response = await axios.patch(`https://api-todo-react-django-85f51829d707.herokuapp.com/api/todo/${id}/`, value)
             const newTodos = todos.map(todo => todo.id === id ? response.data : todo)
             setTodos(newTodos)
         } catch (error) {
