@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-begemyb3xjkx7)p)fz^-=a01ogx_1d&r@&-#n@i-*(28c%7v-e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','api-todo-react-app-4a664ae2c098.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','api-todo-react-app-4a664ae2c098.herokuapp.com', 'www.api-todo-react-app-4a664ae2c098.herokuapp.com/api/todo', 'www.api-todo-react-app-4a664ae2c098.herokuapp.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
